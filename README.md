@@ -54,7 +54,7 @@ For this assignment, you'll be writing a whole bunch of (very simple) classes. M
  - `Pants.java`
  - `Boot.java`
  
-Most of these classes will look very similar, containing just a single method to `display()` the corresponding part. They don't even have an explictly-defined constructor! (Because these simple classes aren't storing any data and so don't have anything to initialize, we'll just rely on the default constructor that is inherited from the `Object` class - more on that after the midterm!)  For example, if we examine `Pumpkin.java` we'll find:
+Most of these classes will look very similar, containing just a single method to `display()` the corresponding part. Most don't even have an explictly-defined constructor! (Because these simple classes aren't storing any data and so don't have anything to initialize, we'll just rely on the default constructor that is inherited from the `Object` class - more on that after the midterm!)  For example, if we examine `Pumpkin.java` we'll find:
 
 ```
 public class Pumpkin {
@@ -81,7 +81,7 @@ public class Pumpkin {
 ### Step 1: Implementing individual parts.
 Your **first task** is to implement the remaining "parts" - feel free to be creative with your ASCII art, or find some on the internet. Just don't forget to **escape** special characters like `\` by adding another `\` in front of them (so: `\\`) or they won't display properly. I've included a `main(...)` method in each of the starter files to simplify testing.
 
-One tricky piece to consider is how you'll print your `Boot`s (since you need two of them). In this class, your `display(...)` method will take a `String` as a parameter which will take one of two values: `"left"` or `"right"`. We'll use this to signal whether we a drawing the left or right boot. 
+One tricky piece to consider is how you'll print your `Boot`s (since you need two of them). In this class, your constructor will take a `String` as a parameter which will take one of two values: `"left"` or `"right"`. We'll use this to signal whether we a drawing the left or right boot. 
 
 _Hint 1: It's much more straightforward if each `Boot` only occupies a single line!_
 _Hint 2: Remember the difference between `System.out.println(...)` and `System.out.print(...)`._
