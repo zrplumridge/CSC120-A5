@@ -22,5 +22,11 @@ public class Pumpkin {
         System.out.println("     ''*-.,_______,.-*'  ");  
 
     }
+    
+    /* main method (for testing) */
+    public static void main(String[] args) {
+        Pumpkin myPumpkin = new Pumpkin();
+        myPumpkin.display();
+    }
 
 }
