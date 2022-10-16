@@ -10,7 +10,14 @@ public class Pants {
      * TODO: Modify this method to print ASCII Art Pants
      */
     public void display() {
-        System.out.println("Pants?);
+        System.out.println("       /wwwwwwwwwwwww\\");
+        System.out.println("      |wwwwwwwwwwwwwww|");
+        System.out.println("     /wwwwwwwwwwwwwwwww\\");
+        System.out.println("    |wwwwwwwwwwwwwwwwwww|");
+        System.out.println("   /wwwwwwwwwwwwwwwwwwwww\\");
+        System.out.println("  |wwwwwwwwwwwwwwwwwwwwwww|");
+        System.out.println("          |  | |  |");
+        System.out.println("          |  | |  |");
     }
 
     /* main method (for testing) */
