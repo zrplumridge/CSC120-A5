@@ -18,9 +18,9 @@ public class Boot {
      */
     public void display() {
         if (this.direction.equals("left")) {
-          System.out.println("Left boot?");
+          System.out.print("        (____|");
         } else if (this.direction.equals("right")) {
-          System.out.println("Right boot?");
+          System.out.println(" |____)");
         } else {
           System.out.println("Which boot?");
         }
