@@ -18,12 +18,26 @@ public class Banner {
      * TODO: Modify this method to print a decorative banner, resized to fit the message
      */
     public void display() {
-        System.out.println(this.message);
+        int i = this.message.length();
+        //above
+        System.out.print(" ");
+        for (int j = 0; j < i; j++) {
+            System.out.print("*~");
+        }
+        System.out.println("*~* ");
+
+        System.out.println("*~* " + this.message + " *~*");
+        //below
+        System.out.print(" ");
+        for (int j = 0; j < i; j++) {
+            System.out.print("*~");
+        }
+        System.out.println("*~* ");
     }
 
     /* main method (for testing) */
     public static void main(String[] args) {
-        Banner myBanner = new Banner("Hello world");
+        Banner myBanner = new Banner("supercalifragilisticexpialidocious");
         myBanner.display();
     }
 }
