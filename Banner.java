@@ -15,7 +15,7 @@ public class Banner {
     }
 
     /*
-     * TODO: Modify this method to print a decorative banner, resized to fit the message
+     * Prints a decorative banner, resized to fit the message
      */
     public void display() {
         int i = this.message.length();

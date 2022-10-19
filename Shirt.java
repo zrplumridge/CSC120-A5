@@ -1,14 +1,12 @@
 /*
- * Shirt class (template)
+ * Shirt class 
+ * Displays a sweater with a cable design
  * Assignment 5: Bringing it All Together
  * @author R. Jordan Crouser + CSC120 (Fall '22))
  * @version 13 October 2022
  */
 public class Shirt {
 
-    /*
-     * TODO: Modify this method to print ASCII Art Shirt
-     */
     public void display() {
         System.out.println("      ______|   |______");
         System.out.println("    / @  88 $\\_/$ 88  @ \\");

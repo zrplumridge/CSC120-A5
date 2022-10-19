@@ -9,9 +9,7 @@
 
 class Scarecrow {
 
-    /* Parts of the Scarecrow
-     * TODO: Uncomment remaining parts as you implement each class
-     */
+    /* Parts of the Scarecrow*/
     private Pumpkin head;
     private Shirt body;
     private Pants legs;
@@ -20,9 +18,7 @@ class Scarecrow {
     private Banner sign;
     private String message;
 
-    /* Constructor
-     * TODO: initialize remaining parts
-     */
+    /* Scarecrow Constructor */
     public Scarecrow(Banner n, Pumpkin h, Shirt b, Pants l, Boot lf, Boot rf) {
         head = h;
         body = b;
@@ -32,10 +28,7 @@ class Scarecrow {
         sign = n;
     }
 
-    /* Displays the Scarecrow 
-     * TODO: call the .display() method of each part... 
-     *       ...in the right order!
-    */
+    /* Displays the Scarecrow */
     public void display() {
         sign.display();
         head.display();
