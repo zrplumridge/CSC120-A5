@@ -21,18 +21,18 @@ public class Banner {
         int i = this.message.length();
         //above
         System.out.print(" ");
-        for (int j = 0; j < i; j++) {
+        for (int j = 0; j < i; j+= 2) {
             System.out.print("*~");
         }
-        System.out.println("*~* ");
+        System.out.println("*~*~* ");
 
         System.out.println("*~* " + this.message + " *~*");
         //below
         System.out.print(" ");
-        for (int j = 0; j < i; j++) {
+        for (int j = 0; j < i; j+= 2) {
             System.out.print("*~");
         }
-        System.out.println("*~* ");
+        System.out.println("*~*~* ");
     }
 
     /* main method (for testing) */
