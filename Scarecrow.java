@@ -5,6 +5,8 @@
  * @version 13 October 2022
  */
 
+ import java.util.Scanner;
+
 class Scarecrow {
 
     /* Parts of the Scarecrow
@@ -21,13 +23,13 @@ class Scarecrow {
     /* Constructor
      * TODO: initialize remaining parts
      */
-    public Scarecrow(/*Banner n, */Pumpkin h, Shirt b, Pants l, Boot lf, Boot rf) {
+    public Scarecrow(Banner n, Pumpkin h, Shirt b, Pants l, Boot lf, Boot rf) {
         head = h;
         body = b;
         legs = l;
         leftFoot = lf;
         rightFoot = rf;
-        //sign = n;
+        sign = n;
     }
 
     /* Displays the Scarecrow 
@@ -35,7 +37,7 @@ class Scarecrow {
      *       ...in the right order!
     */
     public void display() {
-        //sign.display();
+        sign.display();
         head.display();
         body.display();
         legs.display();
@@ -46,9 +48,11 @@ class Scarecrow {
     /* Main method (for testing) */
     public static void main(String[] args) {
         //Scanner
+        Scanner input = new Scanner(System.in);
+        String message = input.nextLine();
 
         // TODO: Don't forget to update the line below if you modify the constructor
-        Scarecrow myScarecrow = new Scarecrow(/*new Banner(), */new Pumpkin(), new Shirt(), new Pants(), new Boot("left"), new Boot("right"));
+        Scarecrow myScarecrow = new Scarecrow(new Banner(message), new Pumpkin(), new Shirt(), new Pants(), new Boot("left"), new Boot("right"));
 
         // If a message was passed in on the command line, extract and store it
         // TODO: in Step 4, you'll pass this value along to your Banner constructor
@@ -57,6 +61,7 @@ class Scarecrow {
         }
 
         myScarecrow.display();
+        input.close();
     }
 
 }

@@ -19,6 +19,11 @@ public class Banner {
      */
     public void display() {
         int i = this.message.length();
+
+        if (i <= 0) {
+            this.message = "Hi!";
+            i = this.message.length();
+        }
         //above
         System.out.print(" ");
         for (int j = 0; j < i; j+= 2) {

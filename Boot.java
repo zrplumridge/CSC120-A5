@@ -1,8 +1,9 @@
 /*
- * Boot class (template)
+ * Boot class
+ * One-line boots for the scarecrow; 
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author R. Jordan Crouser + Zoe Plumridge (CSC 120 Fall'22)
+ * @version 19 October 2022
  */
 public class Boot {
   

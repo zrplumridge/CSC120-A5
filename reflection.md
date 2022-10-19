@@ -7,4 +7,6 @@ helps with organization
 plan out the scarecrow first!
 
 
-Association helps to separate the program into parts. 
+Association helps to separate the program into parts. This can make testing individual parts possible prior to running the entire program, and therefore allows for easier debugging. 
+
+For this program, it was pretty important to plan out the appearance of the scarecrow and how to break it into pieces before beginning programming. Pieces are often easier to work on because they are less overwhelming. 
