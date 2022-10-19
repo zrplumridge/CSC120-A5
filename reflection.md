@@ -5,3 +5,6 @@ Use this file to record your reflection on this assignment.
 
 helps with organization
 plan out the scarecrow first!
+
+
+Association helps to separate the program into parts. 
