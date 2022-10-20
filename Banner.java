@@ -20,19 +20,17 @@ public class Banner {
     public void display() {
         int i = this.message.length();
 
-        if (i <= 0) {
-            this.message = "Hi!";
-            i = this.message.length();
-        }
-        //above
+        //upper section of banner
         System.out.print(" ");
         for (int j = 0; j < i; j+= 2) {
             System.out.print("*~");
         }
         System.out.println("*~*~* ");
 
+        //left and right sides; inline with message
         System.out.println("*~* " + this.message + " *~*");
-        //below
+
+        //bottom section of banner
         System.out.print(" ");
         for (int j = 0; j < i; j+= 2) {
             System.out.print("*~");

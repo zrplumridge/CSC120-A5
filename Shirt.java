@@ -2,8 +2,8 @@
  * Shirt class 
  * Displays a sweater with a cable design
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author R. Jordan Crouser + Zoe Plumridge (CSC 120 Fall'22)
+ * @version 19 October 2022
  */
 public class Shirt {
 
